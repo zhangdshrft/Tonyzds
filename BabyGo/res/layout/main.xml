@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/top_title_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        layout="@layout/top_title_layout" />
+
+    <com.tony.babygo.views.ScrollingTabs
+        android:id="@+id/stv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_title_layout" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/stv" >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_color">#00bae1</color>
+    <color name="blue">#448aca</color>
+    <color name="background_all">#ebebeb</color>
+    <color name="yellow">#ffc000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="py_bg_color">#5A4F4A</color>
+    <color name="divider_color">#ca1117</color>
+    <color name="divider_color_old">#0099CC</color>
+    <color name="red">#e84256</color>
+    <color name="gray">#d9d8d4</color>
+    <color name="green">#34d7de</color>  
+    <color name="dimblue">#0e3654</color>  
+    <color name="shallowgreen">#9dd6d4</color>  
+    
+    <color name="top_color">#52b5d7</color>  
+    
+    <color name="screen_background">#333</color>
+    <color name="display_background">#000</color>
+       
+    <color name="deep_blue">#48a1c1</color>  
+    
+    
+    <!-- 日历 -->
+    <color name="calendar_background">#000000</color>
+    <color name="recordremind_background">#FFFFFF</color>
+    <color name="border_color">#FFFFFF</color>
+    <color name="weekname_color">#FFFFFF</color>  
+    <color name="day_color">#FFFFFF</color>
+    <color name="inner_grid_color">#FFFFFF</color>
+    <color name="prev_next_month_day_color">#999999</color>
+    <color name="text_color">#FFFF00</color>
+    <color name="recordremindtext_color">#000000</color>
+    <color name="current_day_color">#FF0000</color>
+    <color name="today_background_color">#FF0000</color>
+    <color name="today_color">#FFFFFF</color>
+    <color name="sunday_saturday_color">#FF0000</color>
+    <color name="sunday_saturday_prev_next_month_day_color">#990000</color>
+    <color name="transparent">#50000000</color>
+    <color name="Calendar_WeekBgColor">#ffffff</color>
+    <color name="Calendar_WeekFontColor">#8C8A8C</color>
+    <color name="Calendar_DayBgColor">#ffffff</color>   
+    <color name="isHoliday_BgColor">#E0E0E0</color>
+    <color name="unPresentMonth_FontColor">#8C8A8C</color>
+    <color name="isPresentMonth_FontColor">#00bae1</color>
+    <color name="isToday_BgColor">#ffffff</color>
+    <color name="specialReminder">#FF0000</color>
+    <color name="commonReminder">#BDBAB5</color>
+
+    <color name="red_light">#ffff4444</color>
+    <color name="green_light">#ff99cc00</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="blue_light">#ff33b5e5</color>
+    
+</resources>  

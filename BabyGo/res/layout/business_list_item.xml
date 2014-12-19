@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/s_photo_image"
+        android:layout_width="105dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/s_photo_image"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/hui_image"
+        android:layout_toRightOf="@+id/s_photo_image"
+        android:maxLines="1"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/stars_image"
+        android:layout_width="63dp"
+        android:layout_height="24dp"
+        android:layout_alignLeft="@+id/name_text"
+        android:layout_below="@+id/name_text"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/address_text"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"  
+        android:layout_alignLeft="@+id/stars_image"
+        android:layout_below="@+id/stars_image"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:text="TextView"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/avg_price_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/address_text"
+        android:layout_marginRight="10dp"
+        android:maxLines="1"
+        android:text="TextView"
+        android:textColor="@color/green" />
+
+    <ImageView
+        android:id="@+id/tuan_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/avg_price_text"
+        android:layout_alignTop="@+id/name_text"
+        android:src="@drawable/ic_tuan_small" />
+
+    <ImageView
+        android:id="@+id/ding_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/name_text"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/tuan_image"
+        android:src="@drawable/ic_book_small" />
+    
+    <ImageView
+        android:id="@+id/hui_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/name_text"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/ding_image"
+        android:src="@drawable/ic_booking_discount" />
+
+</RelativeLayout>
